@@ -75,3 +75,108 @@ nav h1{
     padding-right: 55px;
 }
 /* Banner style end */
+
+/* pillars of bangladesh start */
+.pillar-of-bd{
+    width: 1150px;
+    margin: 80px auto;
+}
+.pillar-of-bd>h3{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.pillars{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pillar{
+    width: 210px;
+    background-color:rgb(255, 255, 255) ;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    border-radius: 12px;
+    padding: 20px 30px;
+    gap: 15px;
+}
+.pillar-card-title{
+    font-size: bold;
+}
+
+/* pillars of bangladesh end */
+
+/* vision section start */
+.vision-bd{
+    width: 1150px;
+    margin: 80px auto;
+}
+.vision-bd>h3{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.vision-bd>p{
+    margin-bottom: 40px;
+}
+.visions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.vision{
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 40px 18px;
+    border-radius: 12px;
+}
+#vision-1{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+#vision-2{
+    background-color: rgb(198, 228, 214);
+}
+#vision-3{
+    background-color: rgb(247, 235, 207);
+}
+.vision-title{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 14px;
+}
+.vision-dis{
+    margin: 10px 0;
+    color: rgba(14, 14, 14, 0.7) ;
+}
+.vision-btn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 18px;
+    border: none;
+}
+#vision-btn-1:hover{
+    background-color: white;
+    color: black;
+}
+#vision-btn-1{
+    background-color: rgb(84, 144, 245);
+}
+#vision-btn-2{
+    background-color: rgb(9, 161, 92);
+}
+#vision-btn-2:hover{
+    background-color: white;
+}
+#vision-btn-3{
+    background-color: rgb(255, 194, 57);
+}
+#vision-btn-3:hover{
+    background-color: white;
+}
+
+/* vision section end */
