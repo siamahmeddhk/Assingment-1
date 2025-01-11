@@ -1,3 +1,8 @@
+.fira-sans {
+    font-family: "Fira Sans", serif;
+    font-style: normal;
+  }
+
 *{
     margin: 0;
     padding: 0;
@@ -48,12 +53,12 @@ nav h1{
     padding-left: 55px;
 }
 .banner-sub{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
     color: rgba(14, 14, 14, 0.5);
 }
 .banner-title{
-    font-size: 50px;
+    font-size: 48px;
     font-weight: 700;
     color: black;
     margin-top: 25px;
@@ -83,6 +88,7 @@ nav h1{
 }
 .pillar-of-bd>h3{
     font-size: 35px;
+    color: rgba(14, 14, 14, 100%);
     font-weight: 600;
     margin-bottom: 40px;
 }
@@ -104,8 +110,11 @@ nav h1{
 }
 .pillar-card-title{
     font-size: bold;
+    color: rgba(14, 14, 14, 80%);
 }
-
+.pillar-card-subtitle{
+    color: rgba(14, 14, 14, 70%);
+}
 /* pillars of bangladesh end */
 
 /* vision section start */
@@ -114,12 +123,14 @@ nav h1{
     margin: 80px auto;
 }
 .vision-bd>h3{
+    color: rgba(14, 14, 14, 100%);
     font-size: 35px;
-    font-weight: 600;
+    font-weight: bold;
     margin-bottom: 40px;
 }
 .vision-bd>p{
     margin-bottom: 40px;
+    color: rgba(14, 14, 14, 70%);
 }
 .visions{
     display: flex;
@@ -134,6 +145,12 @@ nav h1{
     justify-content: center;
     padding: 40px 18px;
     border-radius: 12px;
+}
+.vision-title{
+    color: rgba(14, 14, 14, 80%);
+}
+.vision-dis{
+    color: rgba(14, 14, 14, 70%);
 }
 #vision-1{
     background-color: rgba(84, 144, 245, 0.2);
@@ -196,11 +213,15 @@ nav h1{
 .quote-text{
     margin-bottom: 20px;
     font-size: bold;
+    color: rgba(14, 14, 14, 80%);
 }
 .quote-writer{
     margin-bottom: 5px;
+    color: rgba(14, 14, 14, 80%);
 }
-
+.quote-writer-title{
+    color: rgba(14, 14, 14, 60%);
+}
 /* quote section end */
 
 /* opinion section start */
@@ -210,6 +231,7 @@ nav h1{
 }
 .opinion-section>h3{
     font-size: 35px;
+    color: rgba(14, 14, 14, 100%);
     font-weight: 600;
     margin-bottom: 40px;
 }
@@ -243,6 +265,7 @@ nav h1{
 }
 .recent-news .recent-news-title{
     font-size: 35px;
+    color: rgba(14, 14, 14, 100%);
     font-weight: 600;
     margin-bottom: 40px;
 }
@@ -273,11 +296,13 @@ nav h1{
 }
 .recent-news-card-title{
     font-size: 32px;
-    color: #0E0E0E;
+    color: rgba(14, 14, 14, 80%);
     margin-bottom: 20px;
 }
 .recent-news-card-text > p{
     margin-top: 10px;
+    font-size: 14px;
+    color: rgba(14, 14, 14, 80%);
 }
 .recent-news-card-dis{
     margin: 10px 0;
@@ -285,3 +310,117 @@ nav h1{
 }
 
 /* news section end */
+
+/* donate section start */
+.donate{
+    width: 900px;
+    margin: 80px auto;
+    text-align: center;
+}
+.donate-title{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.donate-sub{
+   color: rgba(14, 14, 14, 70%);
+}
+.donate-divs{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.donate-div{
+    padding: 30px 40px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    border: 1px solid rgba(14, 14, 14, 15%);
+}
+.donate-div:hover{
+    background-color: #C6E4D6;
+}
+.donate-div > h1{
+    font-size: 30px;
+    color: rgba(14, 14, 14, 80%);
+}
+.donate input{
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: rgba(14, 14, 14, 30%);
+    border: none;
+}
+
+/* donate section end */
+
+/* newsletter section start */
+.newsletter{
+    width: 1150px;
+    background-color: #C6E4D6; 
+    text-align: center;
+    margin: 80px auto;
+    padding: 70px 30px;
+    border-radius: 20px;
+}
+.newsletter-title{
+    font-size: 36px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 100%);
+    margin-bottom: 20px;
+}
+.newsletter-sub{
+    color: rgba(14, 14, 14, 70%);
+}
+
+.newsletter-input input{
+    margin-top: 20px;
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px 0px 0px 6px;
+}
+.newsletter-input input::placeholder{
+    color: rgba(14, 14, 14, 30%);
+}
+.newsletter-btn{
+    padding: 10px 10px;
+    border-radius: 0 6px 6px 0;
+    background-color: #006A50;
+    border: none;
+}
+.newsletter-footer{
+    margin-top: 20px;
+    color: rgba(14, 14, 14, 70%);
+}
+/* newsletter section end */
+
+/* footer start */
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #ffffff;
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-contant{
+    width: 800px;
+    margin: 0 auto;
+}
+.footer-contant h1{
+    padding: 20px 0px;
+}
+.footer-contant hr{
+    background-color: rgba(193, 191, 191, 0.1);
+}
+.footer-icons{
+    margin-top: 20px;
+}
+.footer-icon{
+    padding: 10px;
+}
+/* fooer end */
