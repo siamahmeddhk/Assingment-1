@@ -1,15 +1,17 @@
-.fira-sans {
-    font-family: "Fira Sans", serif;
-    font-style: normal;
-  }
-
 *{
     margin: 0;
     padding: 0;
 }
+
+.fira-sans {
+    font-family: "Fira Sans", serif;
+    font-style: normal;
+  }
 .bg-color{
     background-color: rgb(245, 245, 245);
 }
+
+
 /* nav style start */
 nav{
     display: flex;
@@ -104,6 +106,7 @@ nav h1{
     flex-direction: column;
     align-items: start;
     justify-content: center;
+    border: 1px solid rgba(14, 14, 14, 15%);
     border-radius: 12px;
     padding: 20px 30px;
     gap: 15px;
@@ -139,11 +142,12 @@ nav h1{
 }
 .vision{
     width: 340px;
+    height: 280px;
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    padding: 40px 18px;
+    padding: 38px 18px;
     border-radius: 12px;
 }
 .vision-title{
@@ -207,7 +211,7 @@ nav h1{
     background-color: white;
     margin: 80px auto;
     border-radius: 12px;
-    border: 1px solid #f1efef;
+    border: 1px solid rgba(14, 14, 14, 15%);
     padding: 40px 20px;
 }
 .quote-text{
@@ -244,7 +248,11 @@ nav h1{
     width: 1100px;
     border-collapse: collapse;
 }
-
+.opinion-section table th{
+    background-color: #C6E4D6;
+    text-align: start;
+    padding: 20px 10px;
+}
 .opinion-section table td{
     border: 1px solid #dad8d8;
     padding: 20px 20px;
@@ -349,10 +357,13 @@ nav h1{
     width: 100%;
     height: 50px;
     text-align: center;
-    color: rgba(14, 14, 14, 30%);
     border: none;
+    box-shadow: 1px 1px 1px rgba(14, 14, 14, 15%);
+    outline: none;
 }
-
+.donate input::placeholder{
+    color: rgba(14, 14, 14, 30%);
+}
 /* donate section end */
 
 /* newsletter section start */
@@ -373,22 +384,27 @@ nav h1{
 .newsletter-sub{
     color: rgba(14, 14, 14, 70%);
 }
-
-.newsletter-input input{
+.newsletter input[type="text"]{
     margin-top: 20px;
-    width: 300px;
     padding: 10px;
+    outline: none;
+    width: 400px;
     border: none;
-    border-radius: 6px 0px 0px 6px;
+    border-radius: 10px 0px 0px 10px;
 }
-.newsletter-input input::placeholder{
-    color: rgba(14, 14, 14, 30%);
+.newsletter input[type="text"]::placeholder{
+    color: rgba(14, 14, 14, 15%);
 }
 .newsletter-btn{
-    padding: 10px 10px;
-    border-radius: 0 6px 6px 0;
-    background-color: #006A50;
+    padding: 10px;
+    border-radius: 0px 10px 10px 0px;
     border: none;
+    background-color: #006A50;
+    color: #ffffff;
+}
+.newsletter-btn:hover{
+    background-color: #ffffff;
+    color: black;
 }
 .newsletter-footer{
     margin-top: 20px;
@@ -414,13 +430,10 @@ footer{
 .footer-contant h1{
     padding: 20px 0px;
 }
-.footer-contant hr{
-    background-color: rgba(193, 191, 191, 0.1);
-}
 .footer-icons{
     margin-top: 20px;
 }
 .footer-icon{
     padding: 10px;
 }
-/* fooer end */
+/* footer end */
