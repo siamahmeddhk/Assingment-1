@@ -180,3 +180,108 @@ nav h1{
 }
 
 /* vision section end */
+
+/* quote section start */
+.quote-section{
+    width: 1100px;
+    background-image: url("/assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: 20px 20px;
+    background-color: white;
+    margin: 80px auto;
+    border-radius: 12px;
+    border: 1px solid #f1efef;
+    padding: 40px 20px;
+}
+.quote-text{
+    margin-bottom: 20px;
+    font-size: bold;
+}
+.quote-writer{
+    margin-bottom: 5px;
+}
+
+/* quote section end */
+
+/* opinion section start */
+.opinion-section{
+    width: 1150px;
+    margin: 80px auto;
+}
+.opinion-section>h3{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.opinion-section .table{
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 30px 30px;
+}
+.opinion-section table{
+    width: 1100px;
+    border-collapse: collapse;
+}
+
+.opinion-section table td{
+    border: 1px solid #dad8d8;
+    padding: 20px 20px;
+    background-color: white;
+}
+.opinion-section table td select{
+    padding: 10px 22px;
+    background-color: #C6E4D6;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+/* opinion section end */
+
+/* news section start */
+.recent-news{
+    width: 1150px;
+    margin: 80px auto;
+}
+.recent-news .recent-news-title{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.recent-news .recent-news-sub{
+    margin-bottom: 30px;
+}
+.recent-news-cards{
+    margin-top: 30px;
+}
+.recent-news-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    gap: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.satelite-img{
+    border-radius: 20px;
+    padding: 30px;
+}
+.satelite-img img{
+    border-radius: 20px;
+}
+.recent-news-card-text{
+    padding: 30px;
+}
+.recent-news-card-title{
+    font-size: 32px;
+    color: #0E0E0E;
+    margin-bottom: 20px;
+}
+.recent-news-card-text > p{
+    margin-top: 10px;
+}
+.recent-news-card-dis{
+    margin: 10px 0;
+    color: #0E0E0E;
+}
+
+/* news section end */
