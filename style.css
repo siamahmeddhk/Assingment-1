@@ -205,7 +205,7 @@ nav h1{
 /* quote section start */
 .quote-section{
     width: 1100px;
-    background-image: url("assets/quote-bg.png");
+    background-image: url("../assets/quote-bg.png");
     background-repeat: no-repeat;
     background-position: 20px 20px;
     background-color: white;
